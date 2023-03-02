@@ -4,9 +4,3 @@ input.onGesture(Gesture.Shake, function () {
     basic.showNumber(pases)
 })
 let set_pases = 0
-basic.forever(function () {
-    led.plotBarGraph(
-    input.acceleration(Dimension.X),
-    1023
-    )
-})
