@@ -1,4 +1,4 @@
-input.onGesture(Gesture.Shake, function () {
+input.onButtonPressed(Button.A, function () {
     let pases = 0
     set_pases += 1
     basic.showNumber(pases)
